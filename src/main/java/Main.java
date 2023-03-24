@@ -20,7 +20,7 @@ public class Main {
             System.out.print("\nDeseja repetir? (s/n): ");
             caractere = sc.nextLine().charAt(0);
 
-        } while (caractere == 's');
+        } while (caractere != 'n');
 
         System.out.println("Fim do programa. Obrigado por utilizar!");
 
